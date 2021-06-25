@@ -1,0 +1,53 @@
+{
+    "products": [
+    {
+        "_id":"shoe1", 
+        "title": "Air Jordan 1 Retro High OG PS 'University Blue", 
+        "image":  "/images/1.jpg",
+        "description": "The upper combines a white tumbled leather base with contrasting pale blue leather overlays at the toe, heel and collar, the latter embellished with a black Jordan Wings logo on the lateral side. A matching black Swoosh cuts throughout the sneaker’s quarter panels. Classic Nike Air branding adorns the tongue tag and sockliner", 
+        "price":379, 
+        "availableSizes":["7", "8", "8.5", "10"] 
+    },
+    {
+        "_id":"shoe2", 
+        "title": "Air Jordan 1 Retro High OG 'Shadow 2.0'", 
+        "image":  "/images/2.jpg",
+        "description": "This pair makes use of a black leather upper with grey suede overlays at the toe and heel. A matching grey Swoosh is joined by traditional branding elements that include a Nike Air tongue tag and a Jordan Wings logo stamped on the lateral collar.", 
+        "price":278, 
+        "availableSizes":["6", "7.5", "8", "8.5", "10"] 
+    },
+    {
+        "_id":"shoe3", 
+        "title": "Air Jordan 1 Retro High OG 'Light Fusion Red'", 
+        "image":  "/images/3.jpg",
+        "description": "Laser Orange accents land on the collar and signature Swoosh. Both colors are rendered in gradient fashion on the Nike Air logo that adorns the tongue tag. The high-top rides on a standard rubber cupsole, housing a resilient foam wedge enhanced with Nike Air cushioning.", 
+        "price":244, 
+        "availableSizes":["7", "7.5", "8", "9"] 
+    },
+    {
+        "_id":"shoe4", 
+        "title": "Air Jordan 1 Retro High OG 'Dark Mocha'", 
+        "image": "/images/4.jpg",
+        "description": " The upper features an off-white leather base with contrasting black leather overlays on the eyestay and toe. Brown nubuck is utilized on the heel overlay and collar flap, accented with a classic Wings logo on the lateral side. A leather tag with Nike Air branding adorns the nylon tongue.", 
+        "price":410, 
+        "availableSizes":["6.5","9"] 
+    }, 
+    {
+        "_id":"shoe5", 
+        "title": "Air Jordan 1 Retro High OG 'Court Purple 2.0'", 
+        "image":  "/images/5.jpg",
+        "description": "Unlike its predecessor, this pair makes use of color blocking reminiscent of the OG ‘Chicago’ colorway, with Court Purple replacing the red paneling of the original. The kicks are finished with a black Nike Swoosh and matching black at the laces and padded collar.", 
+        "price":344, 
+        "availableSizes":["7", "7.5", "8", "8.5", "9"] 
+    },
+    {
+        "_id":"shoe6", 
+        "title": "Air Jordan 1 Retro High OG 'Volt Gold'", 
+        "image":  "/images/6.jpg",
+        "description":"Unique details include a reversed translucent tag on an exposed foam tongue and detached collar flaps in an eye-catching shade of Volt. The rest of the leather upper is rendered in tri-tonal color blocking, featuring a crisp white base with contrasting black forefoot overlays and a heel panel in University Gold.", 
+        "price":217, 
+        "availableSizes":["6", "6.5", "7.5", "8", "8.5", "10"] 
+    }
+]
+
+}
