@@ -218,3 +218,20 @@ footer{
   font-size: 1rem;
 }
 
+/* Form container*/
+.form-container {
+  width:100%;
+  padding:0;
+  list-style-type: none;
+}
+
+.form-container li{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.input {
+  padding: 10px;
+}
+

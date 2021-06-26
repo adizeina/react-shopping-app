@@ -76,6 +76,10 @@ class App extends React.Component {
     localStorage.setItem("cartItems", JSON.stringify(cartItems.filter((x) => x._id !== product._id)));  //because we set the state when filtering so it has to be "this.state.cartItems"
   };
 
+  createOrder = (order) =>{
+    alert("Need to save order for " + order.name);
+  };
+
 
 
   render(){
@@ -96,7 +100,10 @@ class App extends React.Component {
           </div>
 
           <div className="sidebar">
-            <Cart cartItems={this.state.cartItems} removeFromCart = {this.removeFromCart} />
+            <Cart 
+              cartItems={this.state.cartItems} 
+              removeFromCart = {this.removeFromCart}
+              createOrder= {this.createOrder}/>
           
           </div>
 
