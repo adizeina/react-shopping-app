@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 html{
-  font-size: 16px;
+  font-size: 14px;
   box-sizing: border-box;
 }
 
@@ -235,3 +235,26 @@ footer{
   padding: 10px;
 }
 
+/* Modal */
+.product-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-details img{
+  margin: 0 auto;
+  max-height: 300px;
+  min-width: 380px;
+}
+
+.product-details-description{
+  flex: 1 1;
+  margin: 1rem;
+}
+
+.close-modal{
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+}
