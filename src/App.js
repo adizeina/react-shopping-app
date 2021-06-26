@@ -10,7 +10,8 @@ class App extends React.Component {
     super();
     this.state = {
       products: data.products,
-      cartItems: [],
+      // to store cart items so it doesn't disappear on refresh --> if the cart is not empty then parse, else --> empty array
+      cartItems: localStorage.getItem("cartItems")? JSON.parse(localStorage.getItem("cartItems")):[], 
       size:"",
       sort:"",
     };
@@ -52,6 +53,7 @@ class App extends React.Component {
       cartItems.push({...product, count: 1});   //adds an instance of that item and sets its quantity to 1
     }
     this.setState({cartItems});
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));   //to stop cartItems from disappearing on refresh
   };
 
   filterProducts = (event) => {
@@ -71,7 +73,9 @@ class App extends React.Component {
     const cartItems = this.state.cartItems.slice();
     this.setState({cartItems: cartItems.filter((x) => x._id !== product._id), 
     });
+    localStorage.setItem("cartItems", JSON.stringify(cartItems.filter((x) => x._id !== product._id)));  //because we set the state when filtering so it has to be "this.state.cartItems"
   };
+
 
 
   render(){
