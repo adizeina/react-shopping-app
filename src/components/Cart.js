@@ -15,7 +15,6 @@ class Cart extends Component {
             name:"", 
             email:"",
             address:"",
-            showCheckout: false,
             }; 
     
     }
